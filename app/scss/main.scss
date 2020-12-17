@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+@include font-face('Gilroy', 'app/assets/Gilroy-Bold', 'bold');
+@include font-face('Gilroy', 'app/assets/Gilroy-Regular', 'regular');
+@include font-face('Gilroy', 'app/assets/Gilroy-Light', 'light');
+
+body {
+  font-family: 'Gilroy';
+  font-weight: light;
+  color: white;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f46b45; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f46b45,
+    #eea849
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f46b45,
+    #eea849
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  text-align: center;
+  margin: 90px 0px 90px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
