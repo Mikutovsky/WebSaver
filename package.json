@@ -1,0 +1,29 @@
+{
+  "name": "vue_saver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikutovsky/WebSaver.git"
+  },
+  "author": "Mikutovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikutovsky/WebSaver/issues"
+  },
+  "homepage": "https://github.com/Mikutovsky/WebSaver#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-newer": "^1.3.0",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
