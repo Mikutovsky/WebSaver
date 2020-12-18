@@ -14,6 +14,7 @@ package-lock.json
 .sass-cache
 .tmp
 node_modules
+build
 bower_components
 phantomcss
 *.map
