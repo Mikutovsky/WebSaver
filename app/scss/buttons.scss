@@ -3,8 +3,9 @@ $helpBtnColor: #ffff00;
 $helpTextColor: #2c2c2c;
 
 .btn {
+  cursor: pointer;
   background-color: $mainBtnColor;
-  padding: 0px!important;
+  padding: 0px !important;
   border: none;
   outline: none;
   border-radius: 10px;
@@ -21,8 +22,8 @@ $helpTextColor: #2c2c2c;
   }
 }
 
-.search-button{
-    border-radius: 0px 10px 10px 0px;
+.search-button {
+  border-radius: 0px 10px 10px 0px;
 }
 
 .support-button {
