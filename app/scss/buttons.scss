@@ -24,6 +24,15 @@ $helpTextColor: #2c2c2c;
 
 .search-button {
   border-radius: 0px 10px 10px 0px;
+  position: relative;
+  span.icon {
+    position: absolute;
+    background: url('/app/assets/icons/loupe.png') no-repeat;
+    left: 45%;
+    bottom: 7px;
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .support-button {
